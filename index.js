@@ -7,8 +7,8 @@ window.onload = function() {
     var dice2 = getRandomDice();
     img1.src = "images/dice"+ dice1 +".png";
     img2.src = "images/dice"+ dice2 +".png";
-    if(dice1 > dice2) firstH1Paras.innerText  = 'player 1 Wins!';
-    else if(dice1 < dice2) firstH1Paras.innerText  = 'player 2 Wins!';
+    if(dice1 > dice2) firstH1Paras.innerText  = '🚩player 1 Wins!';
+    else if(dice1 < dice2) firstH1Paras.innerText  = 'player 2 Wins!🚩';
     else firstH1Paras.innerText  = 'Ties!';
 
  };
